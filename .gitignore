@@ -1,0 +1,37 @@
+# Gradle files
+.gradle/
+build/
+/local.properties
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+/externalNativeBuild/
+.cxx/
+
+# Output files
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+
+# Log files
+*.log
+java_pid*
+
+# User-specific / Local files
+.DS_Store
+Thumbs.db
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
