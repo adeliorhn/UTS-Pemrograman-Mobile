@@ -1,0 +1,2 @@
+rootProject.name = "UTS Pemrograman Mobile"
+include ':app'
