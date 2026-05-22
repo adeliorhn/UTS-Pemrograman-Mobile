@@ -313,7 +313,8 @@ fun DetailMenuScreen(navController: NavHostController, menuId: Int) {
         
         Column(modifier = Modifier.padding(24.dp)) {
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
-                Text(item.name, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+                Text(item.name, fontSize = 28.sp, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
+                Spacer(modifier = Modifier.width(16.dp))
                 Text(item.price, fontSize = 22.sp, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
             }
             Spacer(modifier = Modifier.height(16.dp))
